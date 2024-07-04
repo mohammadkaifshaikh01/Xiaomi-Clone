@@ -1,0 +1,83 @@
+
+.navbar{
+      margin: 0px;
+      padding: 0;
+      width: 100%;
+      /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+      /* overflow: auto; */
+      position: fixed;
+      justify-content: center;
+      margin-top: 8px;
+      background-color: white;
+     
+     
+}
+#logo{
+   width: 33px;
+   height: 30px;
+   margin-left: 35px;
+   /* display: flex; */
+   /* display :flex */
+}
+.left > a{
+   color: black;
+   font-size: 16px;
+   padding: 20px;
+   justify-content: center;
+   text-decoration: none;
+   /* margin: 0  0 0 20px; */
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* display: flex; */
+   display: inline-flexbox;}
+.right > a{
+   color: black;
+   font-size: 16px;
+    padding: 0 0 0 20px; 
+   /* justify-content: center; */
+   text-decoration: none;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-right: 35px;
+   /* display: flex; */
+   display: inline-flexbox;
+}
+
+.left{
+   float: left;
+}
+.right{
+   float: right;
+}
+
+.cards{
+   display: flex;
+   flex-wrap: wrap; 
+   justify-content: center;
+   align-items: center;
+   justify-items: center; 
+   /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+}
+
+.card{
+   height: 210px;
+   width: 230px;
+   margin: 0 25px;
+   margin-top: 80px;
+   padding: 0 25px;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   border-radius: 5px;
+}
+.cards > .card img{
+   width: 120px;
+   float: right;
+}
+.banner{
+  
+   /* margin-top: 20px; */
+   margin: 40px 8rem 0px 8rem;
+}
+.banner > img {
+   width: 100%;
+   height: 240px;
+   
+}
